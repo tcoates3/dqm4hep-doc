@@ -1,0 +1,18 @@
+site_name: 'DQM4HEP'
+
+pages:
+  - Home: 'index.md'
+  - Download: 'download.md'
+  - Manual:
+    - Installation guide: 'manual/install.md'
+    - User guide: 'manual/userguide.md'
+    - Developer guide: 'manual/devguide.md'
+  - References: 'references.md'
+  - About:
+    - Licence: 'about/license.md'
+    - Contact: 'about/contact.md'
+    - Contribute: 'about/contribute.md'
+
+theme: cinder
+  
+  
