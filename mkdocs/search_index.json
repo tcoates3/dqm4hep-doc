@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "~\n\n\nDQM4HEP : an online data quality analysis framework for physicists\n\n\nWelcome to the DQM4HEP pages !\n\n\nDQM4HEP (Data Quality Monitoring for High Energy Physics) provides tools for high energy physicists to efficiently monitor data taking coming from beam test detectors or full collider experiment detectors.\n\n\nThe software provides the following functionalities :\n\n\n\n\nDAQ system entry point to feed the system with raw data\n\n\nRun control plugin system, interfaced to the DAQ one\n\n\nRaw data distributed system using server/client paradigm\n\n\nSet of interfaces and tools for data quality analysis adapted to online DQM purpose\n\n\nHistogram distributed system\n\n\nVisualization interfaces (Qt Gui, web coming soon ...)\n\n\nLarge scale remote process management\n\n\nGeneric IO support for raw data transfer\n\n\nClient elog interface\n\n\n\n\nThe packages are hosted on \nGitHub\n.", 
+            "text": "DQM4HEP : an online data quality analysis framework for physicists\n\n\nWelcome to the DQM4HEP pages !\n\n\nDQM4HEP (Data Quality Monitoring for High Energy Physics) provides tools for high energy physicists to efficiently monitor data taking coming from beam test detectors or full collider experiment detectors.\n\n\nThe software provides the following functionalities :\n\n\n\n\nDAQ system entry point to feed the system with raw data\n\n\nRun control plugin system, interfaced to the DAQ one\n\n\nRaw data distributed system using server/client paradigm\n\n\nSet of interfaces and tools for data quality analysis adapted to online DQM purpose\n\n\nHistogram distributed system\n\n\nVisualization interfaces (Qt Gui, web coming soon ...)\n\n\nLarge scale remote process management\n\n\nGeneric IO support for raw data transfer\n\n\nClient elog interface\n\n\n\n\nThe packages are hosted on \nGitHub\n.", 
             "title": "Home"
         }, 
         {
@@ -162,7 +162,7 @@
         }, 
         {
             "location": "/about/contact/", 
-            "text": "~\n\n\nContact the authors\n\n\nOriginal authors :\n\n\n\n\nRemi Ete (IPNL, France)\n\n\nAntoine Pingault (Gent, Belgium)\n\n\nLaurent Mirabito (IPNL, France)\n\n\n\n\nContact : \ndqm4hep@gmail.com", 
+            "text": "Contact the authors\n\n\nOriginal authors :\n\n\n\n\nRemi Ete (IPNL, France)\n\n\nAntoine Pingault (Gent, Belgium)\n\n\nLaurent Mirabito (IPNL, France)\n\n\n\n\nContact : \ndqm4hep@gmail.com", 
             "title": "Contact"
         }, 
         {
@@ -172,12 +172,12 @@
         }, 
         {
             "location": "/about/contribute/", 
-            "text": "~\n\n\nContributing\n\n\nTo contribute, use the pull request functionalities provided by GitHub. \n\n\nFor example, to contribute to the DQMCore package, fork the package with your GitHub account. Clone the forked repository :\n\n\ngit clone https://github.com/username/DQMCore.git\ncd DQMCore\ngit branch my-pull-request-branch\ngit checkout my-pull-request-branch\n\n\n\n\nthen work on the package as you need. When changes are done, do some commits :\n\n\ngit add 'modified files'\ngit commit -m \nyour commit message\n\ngit push origin my-pull-request-branch\n\n\n\n\nFinally, go to the official GitHub package page (https://github.com/DQM4HEP/DQMCore/pulls in this case) and create a new pull-request.", 
+            "text": "Contributing\n\n\nTo contribute, use the pull request functionalities provided by GitHub.\n\n\nFor example, to contribute to the DQMCore package, fork the package with your GitHub account. Clone the forked repository :\n\n\ngit clone https://github.com/username/DQMCore.git\ncd DQMCore\ngit branch my-pull-request-branch\ngit checkout my-pull-request-branch\n\n\n\n\nthen work on the package as you need. When changes are done, do some commits :\n\n\ngit add 'modified files'\ngit commit -m \nyour commit message\n\ngit push origin my-pull-request-branch\n\n\n\n\nFinally, go to the official GitHub package page (https://github.com/DQM4HEP/DQMCore/pulls in this case) and create a new pull-request.", 
             "title": "Contribute"
         }, 
         {
             "location": "/about/contribute/#contributing", 
-            "text": "To contribute, use the pull request functionalities provided by GitHub.   For example, to contribute to the DQMCore package, fork the package with your GitHub account. Clone the forked repository :  git clone https://github.com/username/DQMCore.git\ncd DQMCore\ngit branch my-pull-request-branch\ngit checkout my-pull-request-branch  then work on the package as you need. When changes are done, do some commits :  git add 'modified files'\ngit commit -m  your commit message \ngit push origin my-pull-request-branch  Finally, go to the official GitHub package page (https://github.com/DQM4HEP/DQMCore/pulls in this case) and create a new pull-request.", 
+            "text": "To contribute, use the pull request functionalities provided by GitHub.  For example, to contribute to the DQMCore package, fork the package with your GitHub account. Clone the forked repository :  git clone https://github.com/username/DQMCore.git\ncd DQMCore\ngit branch my-pull-request-branch\ngit checkout my-pull-request-branch  then work on the package as you need. When changes are done, do some commits :  git add 'modified files'\ngit commit -m  your commit message \ngit push origin my-pull-request-branch  Finally, go to the official GitHub package page (https://github.com/DQM4HEP/DQMCore/pulls in this case) and create a new pull-request.", 
             "title": "Contributing"
         }
     ]
