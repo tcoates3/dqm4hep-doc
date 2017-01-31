@@ -1,8 +1,8 @@
 
 # Global overview
 
-- What is dqm4hep ?
-- Packages
+- What is DQM4HEP ?
+- DQM4HEP packages
 - DQM applications
 
 ---
@@ -12,10 +12,17 @@
 - DQM4HEP network layer
 
 ---
+# Plugin system
+
+- Overview
+- Example
+
+---
 # Streaming facility :
 
 - xdrstream
 - DQM4HEP event streamer
+- Example
 - Built-in streamers
 
 ---
