@@ -13,6 +13,4 @@ pages:
     - Contact: 'about/contact.md'
     - Contribute: 'about/contribute.md'
 
-theme: cinder
-  
-  
+theme: readthedocs
