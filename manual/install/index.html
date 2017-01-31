@@ -1,223 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="shortcut icon" href="../../img/favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Installation guide - DQM4HEP</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-    <title>Installation guide - DQM4HEP</title>
-
-    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
-    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="../../css/base.css" rel="stylesheet">
-    <link href="../../css/cinder.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/highlight.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-    <script>
-    WebFont.load({
-        google: {
-            families: ['Open Sans', 'PT Sans']
-        }
-    });
-    </script>
-
-    
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Installation guide";
+    var mkdocs_page_input_path = "manual/install.md";
+    var mkdocs_page_url = "/manual/install/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
 </head>
 
-<body>
+<body class="wy-body-for-nav" role="document">
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+  <div class="wy-grid-for-nav">
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-
-            <!-- Main title -->
-            <a class="navbar-brand" href="../..">DQM4HEP</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="../..">Home</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../../download/">Download</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manual <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li class="active">
-    <a href="./">Installation guide</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../userguide/">User guide</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../devguide/">Developer guide</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../../references/">References</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../about/license/">Licence</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../about/contact/">Contact</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../about/contribute/">Contribute</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                </ul>
-            
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                
-                    <li >
-                        <a rel="next" href="../../download/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../userguide/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-    <div class="container">
-        
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
     
-    </ul>
-</div></div>
-        <div class="col-md-9" role="main">
-
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> DQM4HEP</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
 </div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
         
-    </div>
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../download/">Download</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Manual</span></li>
 
-    <footer class="col-md-12 text-center">
-        <hr>
-        <p>
-        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
-    </footer>
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Installation guide</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#installation">Installation</a></li>
+                
+                    <li><a class="toctree-l4" href="#download-sources">Download sources</a></li>
+                
+                    <li><a class="toctree-l4" href="#dependencies">Dependencies</a></li>
+                
+                    <li><a class="toctree-l4" href="#compilation-and-installation">Compilation and installation</a></li>
+                
+            
+            </ul>
+        
+    </li>
 
-    <script src="../../js/jquery-1.10.2.min.js"></script>
-    <script src="../../js/bootstrap-3.0.3.min.js"></script>
-    <script src="../../js/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script>
-    var base_url = '../..';
-    </script>
-    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-    <script src="../../js/base.js"></script>
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../userguide/">User guide</a>
+        
+    </li>
 
-    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">&times;</span>
-                        <span class="sr-only">Close</span>
-                    </button>
-                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        From here you can search these documents. Enter your search terms below.
-                    </p>
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                        </div>
-                    </form>
-                    <div id="mkdocs-search-results"></div>
-                </div>
-                <div class="modal-footer">
-                </div>
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../devguide/">Developer guide</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../references/">References</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>About</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/license/">Licence</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/contact/">Contact</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/contribute/">Contribute</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">DQM4HEP</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Manual &raquo;</li>
+        
+      
+    
+    <li>Installation guide</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="introduction">Introduction</h1>
+<p><strong>DQM4HEP</strong> (Data Quality Monitoring For High Energy Physics) is a software used to monitor online data coming from a test-beam setup or a full detector experiments like LHC or the future collider ILC. It provides :</p>
+<ul>
+<li>Network tools to transfer data and histograms</li>
+<li>A plug-in system to convert data into raw buffers</li>
+<li>A plug-in system to process fast analysis and publish histograms through a service</li>
+<li>User interfaces to visualise histograms coming from analysis plug-ins (GUI, Web pages, etc ...) and DQM system control</li>
+</ul>
+<h1 id="installation">Installation</h1>
+<h2 id="download-sources">Download sources</h2>
+<p>The package sources are available on the github page <a href="https://github.com/DQM4HEP/DQM4HEP">https://github.com/DQM4HEP/DQM4HEP</a>.
+You can either download the last head (development) version with:</p>
+<pre><code class="console">$ git clone https://github.com/DQM4HEP/DQM4HEP.git
+</code></pre>
+
+<p>Or download and unpack the latest (stable) release version : <a href="https://github.com/DQM4HEP/DQM4HEP/releases/latest">https://github.com/DQM4HEP/DQM4HEP/releases/latest</a></p>
+<h2 id="dependencies">Dependencies</h2>
+<p>The package is implemented in <code>C++11</code> and configured via <code>cmake</code>. For the lightest install of the software, you’ll need :</p>
+<ul>
+<li>A c++11 compliant copiler (<code>gcc4.8</code> or <code>clang7.0</code> and later)</li>
+<li>CMake : to compile the package (<a href="../www.cmake.org">www.cmake.org</a>)</li>
+<li>DIM : for TCP/IP sockets handling. Used for services and client remote connections in the data transfer and histogram transfer parts (<a href="../www.cern.ch/dim">www.cern.ch/dim</a>).
+ On MacOSX&gt;10.9, dim will not compile out of the box but a fix is included with the DQM4HEP sources. Please read the <a href="https://github.com/DQM4HEP/dim/tree/master/dim4mac/INSTALL_MAC.txt">INSTALL_MAC.txt</a> file for more informations.</li>
+<li>ROOT : for histogram handling (<a href="../www.root.cern.ch">www.root.cern.ch</a>)</li>
+</ul>
+<p>For a more complete version, you’ll need the optionnal packages :</p>
+<ul>
+<li>LCIO (part of ILCSOFT) : for io data handling with this Event Data Model (<a href="http://lcio.desy.de/">http://lcio.desy.de/</a>)</li>
+<li>Qt : for graphical user interface implementation in the visualization system part (<a href="https://www.qt.io/download/">https://www.qt.io/download/</a>). You will then need to recompile root with the <code>--enable-qt option</code> ( if you did not install Qt through the package manager you may also need to add <code>--with-qt-incdir=$QTDIR/include</code> <code>--with-qt-libdir=$QTDIR/lib</code>).  </li>
+</ul>
+<p>Please note that as of June 2015 Qt4 can no longer be built from sources under MacOSX Mavericks and later. A working alternative is to use mac- ports (<a href="https://www.macports.org">https://www.macports.org</a>) and the following instructions (taken from: <a href="https://trac.macports.org/ticket/46238">https://trac.macports.org/ticket/46238</a>):</p>
+<pre><code class="console">$ git clone https://github.com/RJVB/macstrop
+$ sudo port -v configure qt4-mac +concurrent
+$ sudo port -v destroot qt4-mac +concurrent
+$ sudo port -v -k install qt4-mac +concurrent [qt4-mac-transitional]
+</code></pre>
+
+<ul>
+<li>Doxygen : to generate code documentation (<a href="../www.doxygen.org">www.doxygen.org</a>).</li>
+<li>Elog : to use the Elog interface (<a href="https://midas.psi.ch/elog/">https://midas.psi.ch/elog/</a>)</li>
+</ul>
+<p>All dependencies are also available through desy's <code>afs</code> (/afs/desy.de/project/ilcsoft/sw/$gcc_version/) and <code>cvmfs</code> (/cvmfs/ilc.desy.de/sw/$gcc_version/) installation. <strong>(Except for dim and elog?)</strong></p>
+<h2 id="compilation-and-installation">Compilation and installation</h2>
+<p>To compile the package :</p>
+<pre><code class="console">$ cd DQM4HEP # Where you cloned the package or unziped it
+$ mkdir build # if the directory doesn’t exists
+$ cmake .. # this will create the makefile
+$ make install
+</code></pre>
+
+<p>you might have to give a hint to cmake as to where to find the dependencies with the <code>-D${DependencyName}_DIR=/path/to/dependency/dir</code> flag</p>
+<p>You can also modify the following options :</p>
+<ul>
+<li><code>DOC_INSTALL (ON/OFF)</code> : to install Doxygen documentation. Requires Doxygen installed. <strong>Default is OFF</strong>.</li>
+<li><code>DQM4HEP_VIZUALISATION (ON/OFF)</code> : to install Qt Graphical user interface. Requires <code>Qt</code> installed and <code>ROOT</code> compiled with option <code>--enable-qt</code>. <strong>Default is ON</strong>.</li>
+<li><code>DQM4HEP_USE_LCIO (ON/OFF)</code> : to build lcio plug streamer for data transfer and lcio data processing. Requires LCIO installed. <strong>Default is ON</strong>.</li>
+<li><code>DQM4HEP_USE_ELOG (ON/OFF)</code> : to build the ELog C++ interface. Requires elog binary installed. <strong>Default is ON</strong>.</li>
+<li><code>DQM4HEP_BUILD_EXAMPLES (ON/OFF)</code> : to build dqm4hep examples. <strong>Default is ON</strong>.</li>
+</ul>
+<p>For example to install the Doxygen documentation option only, you can use the following command line :</p>
+<pre><code class="console">$ cmake -DDOC_INSTALL=ON ..
+</code></pre>
+
+<p>This will produce a shared library in the <code>lib</code> directory called <code>libDQM4HEP.so</code> and many executables in the bin directory.<br />
+A cmake script called <code>DQM4HEPConfig.cmake</code> is produced in the root directory and will help the user to load correctly the library and find the headers to implements their analysis modules.</p>
+              
             </div>
-        </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../userguide/" class="btn btn-neutral float-right" title="User guide">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../download/" class="btn btn-neutral" title="Download"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
     </div>
+  
 
-    </body>
+  <hr/>
 
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../download/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../userguide/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
 </html>

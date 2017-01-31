@@ -1,0 +1,13 @@
+---
+title: DQM4HEP - Developer Guide v04-03-00
+author:
+  - R.Ete
+  - A.Pingault
+institute: IPNL, UGent
+header: Developer Guide
+footer: footfootfoot
+documentclass: article
+papersize: A4
+toc: true
+colorlinks: linkcolor, citecolor, urlcolor, toccolor
+---
