@@ -1,4 +1,3 @@
-~
 # Contact the authors
 
 Original authors :
@@ -8,4 +7,3 @@ Original authors :
 - Laurent Mirabito (IPNL, France)
 
 Contact : <a href="mailto:dqm4hep@gmail.com">dqm4hep@gmail.com</a>
-

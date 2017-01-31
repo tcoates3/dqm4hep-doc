@@ -1,4 +1,3 @@
-~
 # DQM4HEP : an online data quality analysis framework for physicists 
 
 Welcome to the DQM4HEP pages !
@@ -18,4 +17,3 @@ The software provides the following functionalities :
 - Client elog interface
 
 The packages are hosted on [GitHub](https://github.com/DQM4HEP).
-

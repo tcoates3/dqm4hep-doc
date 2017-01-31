@@ -1,4 +1,3 @@
-~
 # Bug report
 
 Use the GitHub issue web pages to report any bug or suggestion :

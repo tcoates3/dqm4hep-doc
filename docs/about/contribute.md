@@ -1,7 +1,6 @@
-~
 # Contributing
 
-To contribute, use the pull request functionalities provided by GitHub. 
+To contribute, use the pull request functionalities provided by GitHub.
 
 For example, to contribute to the DQMCore package, fork the package with your GitHub account. Clone the forked repository :
 
