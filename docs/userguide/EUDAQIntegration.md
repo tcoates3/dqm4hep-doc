@@ -1,2 +1,8 @@
 # EUDAQ Integration
 [...]
+
+## Requirements
+[...]
+
+## Networking
+[...]
