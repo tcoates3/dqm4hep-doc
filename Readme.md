@@ -16,7 +16,7 @@ This will deploy the documentation locally in your browser at the following addr
 
 The latest version of the documentation deployed by the developers can be found at this location :
 
-[https://dqm4hep.github.io/dqm4hep-doc/](https://dqm4hep.github.io/dqm4hep-doc/)
+[http://dqm4hep.readthedocs.io](http://dqm4hep.readthedocs.io)
 
 <img src="https://www.gnu.org/graphics/gplv3-127x51.png" align="right" />
 
