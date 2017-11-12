@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/dqm4hep/badge/?version=latest)](http://dqm4hep.readthedocs.io/en/latest/?badge=latest)
+
 **WARNING: The documentation in this package in under construction. Do not use it !**
 
 # DQM4HEP documentation package
