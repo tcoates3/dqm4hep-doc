@@ -5,14 +5,15 @@ pages:
   - Download: 'download.md'
   - User Manual:
     - Core tools: 'user-manual/core-tools.md'
-  - Manual:
-    - Installation guide: 'manual/install.md'
-    - User guide: 'manual/userguide.md'
-    - Developer guide: 'manual/devguide.md'
+  # - Manual:
+    # - Installation guide: 'manual/install.md'
+    # - User guide: 'manual/userguide.md'
+    # - Developer guide: 'manual/devguide.md'
   - References: 'references.md'
   - About:
     - Licence: 'about/licence.md'
     - Contact: 'about/contact.md'
     - Contribute: 'about/contribute.md'
 
-theme: readthedocs
+# theme: mkdocs
+theme_dir: cinder
